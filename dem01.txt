@@ -1,0 +1,55 @@
+ free s/w
+Linux --->open source (own customiaztion possible)
+
+cloud means:The term "cloud" in the context of computing refers to a model for delivering computing resources—such as servers, storage, databases, networking, software, and more—over the internet, on-demand, 
+and typically on a pay-as-you-go basis. 
+Instead of owning and maintaining physical hardware or infrastructure, users access these resources from remote data centers managed by cloud service providers like Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP).
+AWS--->EC2--->(key pair login)
+
+t2 micro-->1 cpu 1GB RAM 30GB HD(750 hours)
+
+https://us06web.zoom.us/j/89539543467
+
+Meeting ID: 895 3954 3467
+Passcode: 123456
+
+SSH traffic from allow all
+ssh--->all trafic (it means that all ports are enabled)
+
+GIT--->it's used for connecting linux servers
+
+Microsoft Azure---->Virtual machine
+
+
+ssh -i "aws_login_key.pem" ubuntu@ec2-43-204-233-10.ap-south-1.compute.amazonaws.com
+
+########################################################################################################
+
+Jenkins initial setup is required. An admin user has been created and a password generated.
+Please use the following password to proceed to installation:
+
+20017cbd670c4a62abbbb99b6c72d056
+
+This may also be found at: /home/ubuntu/.jenkins/secrets/initialAdminPassword
+
+
+13.233.63.182
+########################################################################################################
+
+…or create a new repository on the command line
+echo "# Git_practice" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Puli37/Git_practice.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Puli37/Git_practice.git
+git branch -M main
+git push -u origin main
+
+##########################################
+$ pwd
+/c/Puli_devops/gitrepo
